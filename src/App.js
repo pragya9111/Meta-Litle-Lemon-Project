@@ -4,7 +4,6 @@ import Layout from './layout/Layout/layout';
 import Home from './pages/Home/home';
 import About from './pages/About/about';
 import Reservations from './pages/Reservation/reservation';
-import Login from './pages/Login/login';
 import Menu from './pages/Menu/menu';
 
 function App() {
@@ -20,8 +19,6 @@ function App() {
               path='/reservations'
               element={<Reservations />}
             />
-            {/* <Route path='/order' element={<Orders />} /> */}
-            <Route path='/login' element={<Login />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Layout>
