@@ -32,6 +32,10 @@ ul li a {
     font-weight: 500;
 }
 
+ul li a:hover {
+    color: #f4ce14;
+}
+
 .menu-toggle {
     display: none;
 }
