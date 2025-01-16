@@ -38,14 +38,14 @@ const Specials = () => {
   const navigate = useNavigate();
 
   const onClickMenu = () => {
-    navigate('/order');
+    navigate('/menu');
   };
 
   return (
     <div className="specials">
       <div className="header-container">
         <h1 className="specials-title">Specials</h1>
-        <Button title={"Online Menu"} onClick={onClickMenu} />
+        <Button title={"Explore Menu"} onClick={onClickMenu} />
       </div>
 
       <div className="header-list">

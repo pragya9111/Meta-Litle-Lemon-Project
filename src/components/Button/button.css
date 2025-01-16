@@ -1,14 +1,22 @@
 .button {
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    background-color: #f4ce14;
-    color: #495e57;
-    font-weight: bold;
-    border: 0.1875rem solid #f4ce14;
-    font-size: 1em;
+  padding: 0.6rem 1.3rem;
+  border-radius: 2rem;
+  background-color: #f4ce14;
+  color: #495e57;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
 }
 
-.button:active {
-    background-color: #495e57;
-    color: white;
+button:hover:not(:disabled) {
+  background-color: #3b4d46;
+  color: #f4ce14;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  border: none;
+  cursor: not-allowed;
 }

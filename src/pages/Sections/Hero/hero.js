@@ -32,8 +32,6 @@ const Hero = () => {
         className="image"
         src={Image}
         alt="Restarurant food"
-        height={200}
-        width={200}
       />
     </div>
   )
