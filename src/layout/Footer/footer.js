@@ -14,8 +14,6 @@ const Footer = () => {
           <Link className="footer-item" to="/about">About</Link>
           <Link className="footer-item" to="/menu">Menu</Link>
           <Link className="footer-item" to="/reservations">Reservations</Link>
-          <Link className="footer-item" to="/order-online">Order Online</Link>
-          <Link className="footer-item" to="/login">Login</Link>
         </div>
         <div className="footer-contact">
           <p className="footer-title"> CONTACT</p>
