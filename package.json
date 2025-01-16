@@ -1,6 +1,6 @@
 {
-  "name": "meta-final-project",
-  "version": "0.1.0",
+  "name": "meta-frontend-littlelemon-project",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
